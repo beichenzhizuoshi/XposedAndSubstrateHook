@@ -27,5 +27,4 @@ Interface:
     2. 其中内置了U3D和Cocos2dLua的Hook 
     
 注意: 
-    1. 将框架so和接口so不要放在sd卡上,虽然采用System.load方式加载但还是报错,具体原因不明
-    
+    1. 将框架so和接口so不要放在sd卡上,虽然采用System.load方式加载但还是报错,具体原因跟手机SELinux安全策略有关，及可执行文件不允许放在外部存储中
